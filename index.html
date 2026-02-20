@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Philip's Awesome Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Philip's Awesome Website</h1>
+      <p>Hi! I'm Philip, I'm 10 years old, and this is my website about my favourite things.</p>
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="lego.html">My LEGO Page</a>
+        <a href="books.html">Favourite Books</a>
+        <a href="robotics.html">LEGO Robotics</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Welcome!</h2>
+        <p>
+          Hi! My name is Philip. I'm 10 years old and I created this website using Agentic Ai, which is really fun to use. I love so many different things and I created this website as a fun way of seeing them all in one place.
+        </p>
+      </section>
+
+      <section class="card game-section">
+        <h2>Brick Stacker (LEGO Tetris-Style Game)</h2>
+        <p>Use <strong>← →</strong> to move, <strong>↑</strong> to rotate, and <strong>↓</strong> to drop faster.</p>
+
+        <div class="game-wrap">
+          <canvas id="game" width="300" height="600" aria-label="Brick Stacker Game"></canvas>
+          <aside class="score-panel">
+            <h3>Score</h3>
+            <p id="score">0</p>
+            <button id="restartBtn">Restart Game</button>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built by Philip 💛❤️💙</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
